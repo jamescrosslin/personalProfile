@@ -3,17 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/reset.css" type="text/css" />
     <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
     <title>James Crosslin | Software Developer</title>
   </head>
   <body>
-    <header class="flex">
-      <div id="profilePic"><img /></div>
-      <h1>James Crosslin | Software Developer</h1>
+    <nav>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <header>
+      <div id="profilePic" class="flex">
+        <img
+          src="/img/profilePic.jpg"
+          alt="James Crosslin with Shara Crosslin
+        at the Grand Canyon"
+        />
+      </div>
+      <h1>James Crosslin | Web Developer</h1>
     </header>
     <section id="intro" class="container flex">
-      <div id="mobileSVG"></div>
+      <div id="thinkingSVG">
+        <object
+          type="image/svg+xml"
+          data="/img/undraw_code_thinking_1jeh.svg"
+          alt="A man sits leaning against a representation of a computer, thinking"
+        ></object>
+      </div>
       <section id="introContent" class="content flex">
         <h2>The Best Developer</h2>
         <p>
@@ -53,10 +78,16 @@
         <p>
           If you want someone who loves to be exploited by capitalism, you found
           that someone. Put dollars in my hand, and I will continue to rely on
-          the socioeconomic system that props up your wealth.
+          the socioeconomic system that props up your wealth. Please, dear god,
+          hire me so that I don't have to do a revolution.
         </p>
       </section>
-      <div id="infoSVG"></div>
+      <div id="progressiveApp">
+        <object
+          type="image/svg+xml"
+          data="/img/undraw_progressive_app_m9ms.svg"
+        ></object>
+      </div>
     </section>
     <section id="skills" class="container flex">
       <section class="skillIcon"></section>
@@ -69,5 +100,6 @@
       <section class="skillIcon"></section>
     </section>
     <footer></footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
